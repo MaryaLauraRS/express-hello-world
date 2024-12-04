@@ -13,7 +13,7 @@ app.get('/req', (req, res) => {
 })
 
 app.get('/meunome', (req, res) => {
-  res.send('Luiz Paulo Rodrigues da Silva Santos')
+  res.send('Marya Laura ')
 })
 app.get('/tico', (req, res) => {
   res.send('Teco')
@@ -23,6 +23,7 @@ app.get('/pokemons', (req, res) =>{
 })
 app.post('/series', (req, res) =>{
   var series = req.body.series
+  var series = req.body
   res.json(series)
 })
 
